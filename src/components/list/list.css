@@ -1,0 +1,18 @@
+:root {
+    --bg-light: #F0F4F8; /* Light background color */
+    --bg-dark: #2E3A59; /* Dark background color */
+    --primary-color: #4A90E2; /* Primary blue color */
+    --secondary-color: #6C8ED4; /* Secondary blue color */
+    --accent-color: #FF6F61; /* Accent color for buttons */
+    --text-light: #F9F9F9; /* Light text color */
+    --text-dark: #333333; /* Dark text color */
+}
+.list {
+    flex: 1;
+    background-color:white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.132);;
+}

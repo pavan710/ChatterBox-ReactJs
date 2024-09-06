@@ -1,0 +1,90 @@
+.adduser {
+    width: max-content;
+    height: max-content;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgba(69, 69, 217, 0.607);
+  }
+  
+  .form {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form input {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(69, 69, 217, 0.152);
+  }
+  
+  .form button {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.411);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    
+  }
+  
+  .user .details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  #dis{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.13);
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  
+  .user .details img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+  
+  }
+  
+  .user .details span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .user button {
+    background-color: rgba(0, 0, 255, 0.408);
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  
+    .cancel {
+        background-color: red !important;
+        color: white !important;
+        padding: 10px 20px !important;
+        border: none !important;
+        cursor: pointer !important;
+        border-radius: 10px !important;
+      }
+      
+  
